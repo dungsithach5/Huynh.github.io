@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Pixelify Sans", sans-serif;
+  }
+  
+  #copyright {
+      font-family: "Poppins", sans-serif;
+  }
+  </style>
+<body>
+    <div class=" fixed z-50 top-0 w-full h-20 bg-black text-white">
+        <nav class="flex justify-between w-4/5 ml-auto mr-auto font-medium text-xl">
+          <a href="#" class="p-7">Huynh.</a>
+          <div class="p-7">
+            <a href="#home" class="px-4">Home</a>
+            <a href="#aboutme" class="px-4">About</a>
+            <a href="#contact" class="px-4">Contact</a>
+          </div>
+        </nav>
+      </div>
+      
+      <div class="w-full h-screen bg-[url('/img/background1.png')] bg-no-repeat bg-cover bg-center mt-20">
+        <div id="home" class="flex justify-center w-4/5 h-screen ml-auto mr-auto">
+          <div class="flex flex-col justify-center items-center text-white">
+            <span class="text-xl">Hello </span>
+            <span class="text-7xl my-2">Welcome!</span>
+            <span class="text-xl my-2">My name is Huynh</span>
+            <span class="text-2xl">I'm a UI/UX <span class="text-black">Designer</span> , Front-End <span class="text-black">Developer</span></span>
+            <span class="text-2xl">in Da Nang, Viet Nam.</span>
+            <a href="#aboutme" class="mt-6 p-2 px-5 border-2 border-white hover:bg-white hover:text-black">Know more</a>
+          </div>
+        </div>
+      </div>
+  
+      <div class="w-full h-screen bg-[url('/img/background2.png')] bg-no-repeat bg-cover bg-center">  
+        <div id="aboutme" class="w-4/5 h-screen content-center ml-auto mr-auto">
+          <h1 class="text-center text-5xl mb-9">About me</h1>
+          <div class="flex justify-center">
+            <div class="w-96 h-96 bg-[url('/img/bluedeep.jpg')] bg-cover border-4 border-blue-500"></div>
+            <div class="flex items-center w-80 text-justify text-lg ml-20 relative">
+              <span>I love programming, application development, and research software architecture.
+                My career objective is to become a Senior Software Engineer who masters software architecture,
+                design principles, and modern development technologies.</span>
+                <a href="" class="absolute bottom-0 p-3 bg-blue-300 border-2 border-black hover:bg-white ">Download CV</a>
+            </div> 
+          </div>        
+        </div>
+      </div>
+      
+      <div class="w-full h-screen bg-[url('/img/background3.png')] bg-no-repeat bg-cover bg-center">
+        <div id="contact" class="flex justify-center items-center w-4/5 ml-auto mr-auto">
+          <div class="flex flex-col items-center justify-center h-screen text-white my-5">
+            <span class="text-5xl mb-9">Contact</span>
+            <span class="text-2xl my-1 text-green-400">I look forward to working with you</span>
+            <span class="my-1">I'm so happy that my skills might bring values to you. Let's connect for work</span>
+            <a href="" class="mt-5 p-3 px-14 text-xl border-2 border-white hover:bg-white hover:text-black">Send An email now</a>
+          </div>
+        </div>
+      </div>
+  
+      <footer class="w-full min-h-[300px] bg-[#00264D]">
+        <div class="flex flex-col justify-center items-center w-4/5 min-h-[300px] ml-auto mr-auto">
+          <div class="flex flex-row space-x-5 text-5xl mb-5 ">
+            <a href=""><i class='bx bxl-twitter text-[#0e1a27] hover:text-[#353a57]'></i></a>
+            <a href="https://www.facebook.com/huynh.tien.982/"><i class='bx bxl-facebook-circle text-[#0e1a27] hover:text-[#353a57]' ></i></a>
+            <a href=""><i class='bx bxl-linkedin-square text-[#0e1a27] hover:text-[#353a57]' ></i></a>
+            <a href="https://github.com/dungsithach5"><i class='bx bxl-github text-[#0e1a27] hover:text-[#353a57]' ></i></a>
+          </div>
+          <span id="copyright" class="text-lg"><i class='bx bx-copyright' ></i>2024 - Huynh Anh Tien</span>
+        </div>
+      </footer>
+  
+</body>
+    <script type="module" src="/src/scripts/application.js"></script>
+</html>
